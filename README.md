@@ -137,38 +137,10 @@ JewelryShopApp/
 - Добавить модульные и UI-тесты.
 
 ---
-
-## Как добавить этот README в репозиторий и закоммитить (команды)
-
-1. Сохраните этот текст в файл `README.md` в корне репозитория.
-2. Выполните в терминале из корня репозитория:
-   ```bash
-   git status
-   git add README.md
-   git commit -m "Add auto-generated README"
-   # если вы находитесь в ветке, например, main или master:
-   git push origin HEAD
-   ```
-   Или явно:
-   ```bash
-   git push origin main
-   ```
-   (замените `main` на имя вашей текущей ветки, если она отличается).
-
-3. Если при пуше требуется создать ветку:
-   ```bash
-   git checkout -b add-readme
-   git push -u origin add-readme
-   ```
 <<<<<<< HEAD
 
 ---
 
-Если хотите, я могу:
-- сгенерировать вариант README с английским переводом,
-- подготовить pull request (опишите, какая ветка для PR),
-- предложить изменения к коду (например, пример использования Room или ViewModel) — напишите, что предпочитаете.
->>>>>>> 2bb9858 (Добавил README)
 =======
 ---
 >>>>>>> 5e16f4f (Update README with Copilot suggestion)
