@@ -38,39 +38,40 @@
 ---
 
 ## Структура проекта
+
 JewelryShopApp/
 ├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/example/jewelryshopapp/
-│   │   │   │   ├── MainActivity.kt
-│   │   │   │   ├── adapters/
-│   │   │   │   │   └── ProductAdapter.kt           # Адаптер для RecyclerView каталога
-│   │   │   │   ├── models/
-│   │   │   │   │   └── Product.kt                  # Модель данных продукта
-│   │   │   │   ├── screens/
-│   │   │   │   │   ├── CatalogScreen.kt           # Экран каталога изделий
-│   │   │   │   │   ├── ProductDetailScreen.kt     # Экран деталей изделия
-│   │   │   │   │   ├── CartScreen.kt              # Экран корзины
-│   │   │   │   │   └── ProfileScreen.kt           # Экран профиля пользователя
-│   │   │   │   ├── utils/
-│   │   │   │   │   └── DataProvider.kt            # Заглушка данных или работа с JSON/базой
-│   │   │   │   └── navigation/
-│   │   │   │       └── NavGraph.kt                # Навигация между экранами
-│   │   │   ├── res/
-│   │   │   │   ├── layout/
-│   │   │   │   │   ├── screen_catalog.xml         # Layout каталога
-│   │   │   │   │   ├── screen_product_detail.xml  # Layout деталей изделия
-│   │   │   │   │   ├── screen_cart.xml            # Layout корзины
-│   │   │   │   │   └── screen_profile.xml         # Layout профиля
-│   │   │   │   ├── values/
-│   │   │   │   │   ├── strings.xml               # Строковые ресурсы
-│   │   │   │   │   ├── colors.xml                # Цвета
-│   │   │   │   │   └── themes.xml                # Тема приложения
-│   │   │   │   └── drawable/
-│   │   │   │       ├── icons/                     # Иконки приложения
-│   │   │   │       └── images/                    # Картинки продуктов
-│   │   │   └── AndroidManifest.xml
+│ ├── src/
+│ │ ├── main/
+│ │ │ ├── java/com/example/jewelryshopapp/
+│ │ │ │ ├── MainActivity.kt
+│ │ │ │ ├── adapters/
+│ │ │ │ │ └── ProductAdapter.kt # Адаптер для RecyclerView каталога
+│ │ │ │ ├── models/
+│ │ │ │ │ └── Product.kt # Модель данных продукта
+│ │ │ │ ├── screens/
+│ │ │ │ │ ├── CatalogScreen.kt # Экран каталога изделий
+│ │ │ │ │ ├── ProductDetailScreen.kt # Экран деталей изделия
+│ │ │ │ │ ├── CartScreen.kt # Экран корзины
+│ │ │ │ │ └── ProfileScreen.kt # Экран профиля пользователя
+│ │ │ │ ├── utils/
+│ │ │ │ │ └── DataProvider.kt # Заглушка данных или работа с JSON/базой
+│ │ │ │ └── navigation/
+│ │ │ │ └── NavGraph.kt # Навигация между экранами
+│ │ │ ├── res/
+│ │ │ │ ├── layout/
+│ │ │ │ │ ├── screen_catalog.xml # Layout каталога
+│ │ │ │ │ ├── screen_product_detail.xml # Layout деталей изделия
+│ │ │ │ │ ├── screen_cart.xml # Layout корзины
+│ │ │ │ │ └── screen_profile.xml # Layout профиля
+│ │ │ │ ├── values/
+│ │ │ │ │ ├── strings.xml # Строковые ресурсы
+│ │ │ │ │ ├── colors.xml # Цвета
+│ │ │ │ │ └── themes.xml # Тема приложения
+│ │ │ │ └── drawable/
+│ │ │ │ ├── icons/ # Иконки приложения
+│ │ │ │ └── images/ # Картинки продуктов
+│ │ │ └── AndroidManifest.xml
 ├── build.gradle (Project)
 ├── build.gradle (Module: app)
 └── settings.gradle
