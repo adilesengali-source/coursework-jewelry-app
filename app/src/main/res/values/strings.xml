@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Основные -->
+    <string name="app_name">JewelryShopApp</string>
+    <string name="app_title">Ювелирный магазин</string>
+
+    <!-- Главный экран -->
+    <string name="btn_catalog">Каталог изделий</string>
+    <string name="btn_calc">Рассчитать стоимость</string>
+
+    <!-- Каталог -->
+    <string name="catalog_title">Каталог изделий</string>
+    <string name="catalog_add_item">Добавить изделие</string>
+    <string name="empty_catalog">Нет изделий. Добавьте первое.</string>
+
+    <!-- Элементы каталога -->
+    <string name="item_price">Цена: %1$.2f ₸</string>
+    <string name="item_name_placeholder">Название</string>
+    <string name="item_price_placeholder">Цена</string>
+    <string name="delete">Удалить</string>
+
+    <!-- Добавляем недостающие элементы -->
+    <string name="item_ring">Кольцо</string>
+    <string name="item_bracelet">Браслет</string>
+    <string name="item_earrings">Серьги</string>
+
+    <!-- Add Item Screen -->
+    <string name="hint_item_name">Название изделия</string>
+    <string name="hint_item_type">Тип изделия (кольцо, браслет…)</string>
+    <string name="hint_item_price">Цена (₸)</string>
+    <string name="btn_save_item">Сохранить</string>
+
+    <!-- Расчёт стоимости -->
+    <string name="select_item_label">Выберите изделие:</string>
+    <string name="price_per_unit_label">Цена за единицу (₸):</string>
+    <string name="price_per_unit_hint">Введите цену</string>
+    <string name="quantity_label">Количество:</string>
+    <string name="quantity_hint">Введите количество</string>
+    <string name="result_desc">Результат расчета стоимости изделия</string>
+    <string name="btn_calculate">Рассчитать</string>
+
+    <!-- Формат результата -->
+    <string name="calc_result">Стоимость %1$s: %2$.2f ₸</string>
+
+</resources>

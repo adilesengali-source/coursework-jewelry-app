@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/card_bg"
+    app:strokeColor="@color/card_stroke"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <!-- Эмодзи вместо картинки -->
+        <TextView
+            android:id="@+id/itemEmoji"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:text="💍"
+            android:textSize="72sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/itemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/item_name_placeholder"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/text_primary"/>
+
+        <TextView
+            android:id="@+id/itemPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/item_price_placeholder"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginTop="4dp"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

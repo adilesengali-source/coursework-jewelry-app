@@ -1,0 +1,7 @@
+<resources>
+    <string-array name="jewelry_items">
+        <item>@string/item_ring</item>
+        <item>@string/item_bracelet</item>
+        <item>@string/item_earrings</item>
+    </string-array>
+</resources>

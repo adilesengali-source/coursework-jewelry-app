@@ -1,0 +1,60 @@
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/card_bg"
+    app:strokeColor="@color/card_stroke"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <!-- Эмодзи вместо картинки -->
+        <TextView
+            android:id="@+id/itemEmoji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="💍"
+            android:textSize="32sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/itemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/item_name_placeholder"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/text_primary"/>
+
+        <TextView
+            android:id="@+id/itemPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/item_price_placeholder"
+            android:textSize="14sp"
+            android:textColor="@color/brand_accent"
+            android:layout_marginTop="4dp"/>
+
+        <!-- 🔴 Кнопка удаления -->
+        <Button
+            android:id="@+id/btnDeleteItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Удалить"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/red_500"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
