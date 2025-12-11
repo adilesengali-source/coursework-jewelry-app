@@ -45,8 +45,6 @@ cd coursework-jewelry-app
 
 ---
 
-## Структура проекта (дерево)
-
 JewelryShopApp/
 ├── app/
 │   ├── src/
@@ -54,20 +52,20 @@ JewelryShopApp/
 │   │   │   ├── java/com/example/jewelryshopapp/
 │   │   │   │   ├── MainActivity.kt                # Точка входа приложения, настройка навигации/контейнера
 │   │   │   │   ├── adapters/
-│   │   │   │   │   └── ProductAdapter.kt           # Адаптер для RecyclerView (карточки продуктов)
+│   │   │   │   │   └── ProductAdapter.kt         # Адаптер для RecyclerView (карточки продуктов)
 │   │   │   │   ├── models/
-│   │   │   │   │   └── Product.kt                  # Модель данных продукта (id, name, price, weight, materials, dateAdded, icon)
+│   │   │   │   │   └── Product.kt                # Модель данных продукта (id, name, price, weight, materials, dateAdded, icon)
 │   │   │   │   ├── screens/
-│   │   │   │   │   ├── CatalogScreen.kt            # Экран каталога (список изделий)
-│   │   │   │   │   ├── ProductDetailScreen.kt      # Экран деталей изделия
-│   │   │   │   │   ├── AddItemScreen.kt            # Экран/форма добавления нового изделия
-│   │   │   │   │   ├── CalcScreen.kt               # Экран калькулятора стоимости
-│   │   │   │   │   ├── CartScreen.kt               # (опционально) корзина
-│   │   │   │   │   └── ProfileScreen.kt            # (опционально) профиль или настройки
+│   │   │   │   │   ├── CatalogScreen.kt          # Экран каталога (список изделий)
+│   │   │   │   │   ├── ProductDetailScreen.kt    # Экран деталей изделия
+│   │   │   │   │   ├── AddItemScreen.kt          # Экран/форма добавления нового изделия
+│   │   │   │   │   ├── CalcScreen.kt             # Экран калькулятора стоимости
+│   │   │   │   │   ├── CartScreen.kt             # (опционально) корзина
+│   │   │   │   │   └── ProfileScreen.kt          # (опционально) профиль или настройки
 │   │   │   │   ├── utils/
-│   │   │   │   │   └── DataProvider.kt             # Заглушка данных / утилиты для получения/подготовки списка продуктов
+│   │   │   │   │   └── DataProvider.kt           # Заглушка данных / утилиты для получения/подготовки списка продуктов
 │   │   │   │   └── navigation/
-│   │   │   │       └── NavGraph.kt                 # Навигация — маршруты и аргументы между экранами
+│   │   │   │       └── NavGraph.kt               # Навигация — маршруты и аргументы между экранами
 │   │   │   ├── res/
 │   │   │   │   ├── layout/
 │   │   │   │   │   ├── screen_catalog.xml
@@ -86,6 +84,7 @@ JewelryShopApp/
 ├── build.gradle (Project)
 ├── build.gradle (Module: app)
 └── settings.gradle
+
 
 ---
 
