@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/bg">
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_title"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- Кнопка Каталог -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCatalog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_catalog"
+        android:textAllCaps="false"
+        android:layout_marginBottom="16dp"
+        app:cornerRadius="12dp"
+        app:backgroundTint="@color/brand_primary"
+        android:textColor="@color/bg"
+        android:paddingStart="36dp"
+        android:paddingEnd="36dp"/>
+
+    <!-- Кнопка Рассчитать -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCalc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_calc"
+        android:textAllCaps="false"
+        app:cornerRadius="12dp"
+        app:backgroundTint="@color/brand_primary_variant"
+        android:textColor="@color/bg"
+        android:paddingStart="36dp"
+        android:paddingEnd="36dp"/>
+</LinearLayout>

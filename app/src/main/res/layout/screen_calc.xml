@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <!-- Заголовок -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_calc"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Spinner -->
+        <TextView
+            android:id="@+id/tvSpinnerLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_item_label"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerItem"
+            android:layout_width="300dp"
+            android:layout_height="56dp"
+            android:layout_marginBottom="16dp"
+            android:labelFor="@id/tvSpinnerLabel"/>
+
+        <!-- Ввод цены -->
+        <TextView
+            android:id="@+id/tvPriceLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/price_per_unit_label"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/etPrice"
+            android:layout_width="300dp"
+            android:layout_height="56dp"
+            android:inputType="numberDecimal"
+            android:hint="@string/price_per_unit_hint"
+            android:textColor="@color/black"
+            android:textColorHint="#555555"
+            android:autofillHints="none"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Ввод количества -->
+        <TextView
+            android:id="@+id/tvQuantityLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quantity_label"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/etQuantity"
+            android:layout_width="300dp"
+            android:layout_height="56dp"
+            android:inputType="number"
+            android:hint="@string/quantity_hint"
+            android:textColor="@color/black"
+            android:textColorHint="#555555"
+            android:autofillHints="none"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Кнопка расчета -->
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="300dp"
+            android:layout_height="56dp"
+            android:text="@string/btn_calculate"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Результат -->
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:contentDescription="@string/result_desc"/>
+
+    </LinearLayout>
+</ScrollView>
