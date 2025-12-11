@@ -47,8 +47,6 @@ cd coursework-jewelry-app
 
 ## Структура проекта (дерево)
 
-Ниже — удобочитаемое дерево каталогов с пояснениями (обобщено на основе доступной структуры):
-
 JewelryShopApp/
 ├── app/
 │   ├── src/
@@ -88,8 +86,6 @@ JewelryShopApp/
 ├── build.gradle (Project)
 ├── build.gradle (Module: app)
 └── settings.gradle
-
-(Если в проекте есть папка `screenshots/`, добавьте её в корень или в `app/src/main/res` — см. раздел Скриншоты.)
 
 ---
 
