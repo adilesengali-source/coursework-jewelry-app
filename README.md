@@ -150,4 +150,6 @@ JewelryShopApp/
 **Дата создания проекта:** Декабрь 2025  
 **Язык проекта:** Kotlin + XML + SQLite
 =======
+
+---
 >>>>>>> 5e16f4f (Update README with Copilot suggestion)
